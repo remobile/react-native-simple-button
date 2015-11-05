@@ -3,7 +3,7 @@ A simple react-native button
 
 ## Installation
 ```sh
-npm install react-native-button --save
+npm install react-native-simple-button --save
 ```
 
 ## Usage

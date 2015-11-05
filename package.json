@@ -1,5 +1,5 @@
 {
-    "name": "react-native-button",
+    "name": "react-native-simple-button",
         "version": "1.0.0",
         "description": "A simple react-native button",
         "main": "index.js",
@@ -17,12 +17,12 @@
             "remobile",
             "mobile"
         ],
-        "homepage": "https://github.com/remobile/react-native-image-animation",
+        "homepage": "https://github.com/remobile/react-native-simple-button",
         "bugs": {
-            "url": "https://github.com/remobile/react-native-image-animation/issues"
+            "url": "https://github.com/remobile/react-native-simple-button/issues"
         },
         "repository": {
             "type": "git",
-            "url": "git://github.com/remobile/react-native-image-animation.git"
+            "url": "git://github.com/remobile/react-native-simple-button.git"
         }
 }

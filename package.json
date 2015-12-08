@@ -1,5 +1,5 @@
 {
-    "name": "react-native-simple-button",
+    "name": "@remobile/react-native-simple-button",
         "version": "1.0.0",
         "description": "A simple react-native button",
         "main": "index.js",

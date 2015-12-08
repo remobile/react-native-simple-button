@@ -45,10 +45,10 @@ module.exports = React.createClass({
 
 var styles = StyleSheet.create({
     text: {
-        color: '#007aff',
+        color: '#5890ff',
         fontFamily: '.HelveticaNeueInterface-MediumP4',
-        fontSize: 17,
-        fontWeight: 'bold',
+        fontSize: 18,
+        fontWeight: '100',
         textAlign: 'center',
     },
     disableText: {

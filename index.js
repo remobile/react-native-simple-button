@@ -1,19 +1,16 @@
-/*
-* (The MIT License)
-* Copyright (c) 2015-2016 YunJiang.Fang <42550564@qq.com>
-* @providesModule Button
-* @flow-weak
-*/
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
-    PropTypes,
+    PropTypes
+} = React;
+var ReactNative = require('react-native');
+var {
     StyleSheet,
     Text,
     TouchableOpacity,
     View,
-} = React;
+} = ReactNative;
 
 const DEFAULT_OPACITY = 0.2;
 

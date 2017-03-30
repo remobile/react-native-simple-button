@@ -1,11 +1,11 @@
 'use strict';
 
-var React = require('react');
-var {
-    PropTypes
+const React = require('react');
+const {
+    PropTypes,
 } = React;
-var ReactNative = require('react-native');
-var {
+const ReactNative = require('react-native');
+const {
     StyleSheet,
     Text,
     TouchableOpacity,
@@ -21,9 +21,9 @@ module.exports = React.createClass({
         textStyle: Text.propTypes.style,
         activeOpacity: PropTypes.number,
     },
-    render() {
-        var touchableProps = {
-            activeOpacity: this.props.disable?1:this.props.activeOpacity?this.props.activeOpacity:DEFAULT_OPACITY,
+    render () {
+        const touchableProps = {
+            activeOpacity: this.props.disable ? 1 : this.props.activeOpacity ? this.props.activeOpacity : DEFAULT_OPACITY,
         };
         if (!this.props.disable) {
             touchableProps.onPress = this.props.onPress;
@@ -40,7 +40,7 @@ module.exports = React.createClass({
     },
 });
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
     text: {
         color: '#5890ff',
         fontFamily: '.HelveticaNeueInterface-MediumP4',
